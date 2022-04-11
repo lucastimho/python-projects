@@ -18,3 +18,7 @@ s2 = {1, 2, 4}
 print(s1.intersection(s2))
 s1.intersection_update(s2)
 print(s1)
+s1 = {1, 2}
+s2 = {1, 2, 4}
+s3 = {5}
+print(s1.isdisjoint(s3))
