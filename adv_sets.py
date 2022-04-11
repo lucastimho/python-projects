@@ -23,3 +23,4 @@ s2 = {1, 2, 4}
 s3 = {5}
 print(s1.isdisjoint(s3))
 print(s1.issubset(s2))
+print(s2.issuperset(s1))
