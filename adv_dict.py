@@ -10,3 +10,5 @@ for k in d.itervalues():
 for k in d.iterkeys():
   print(k)
 print(d.viewitems())
+print(d.viewkeys())
+print(d.viewvalues())
