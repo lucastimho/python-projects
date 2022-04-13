@@ -9,3 +9,4 @@ for k in d.itervalues():
   print(k)
 for k in d.iterkeys():
   print(k)
+print(d.viewitems())
